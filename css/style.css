@@ -1,0 +1,68 @@
+.nav-section{
+
+    font-family: "Roboto",serif;
+    --second-family: "Raleway", sans-serif;
+}
+   .container  {
+    background-color: #2F303A;
+    padding: 50px, 0,50px,0;
+}
+  
+
+   .main-title
+    { 
+   
+   font-family:"Roboto",serif;
+   height: 30px;
+   margin: 100px,0,0,50%;
+   text-align: center;
+  
+     }
+
+     .button{
+        background-color: blue;
+        text-align: center;
+        display:block;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+     }
+
+     .class-section{
+        font-family:"Roboto",serif;
+        color:black;
+        display: inline;
+     }
+
+     .title{
+        text-align: center;
+     }
+
+.about-us {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    width: 1170;
+    height:101;
+
+}
+
+footer {
+    background-color:#2F303A;
+    width: 1600px;
+    height: 251px;
+    text-align: left;
+    
+}
+footer p {
+    margin-bottom: 10px;
+}
+footer .contact-info {
+    font-weight: bold;
+    color: #333;
+}
+.contact-info p {
+    display: block;
+    margin: 5px 0;
+}
+
