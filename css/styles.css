@@ -1,61 +1,72 @@
-.nav-section{
 
-    font-family: "Roboto",serif;
-    --second-family: "Raleway", sans-serif;
-}
-
-*{ box-sizing:border-box;
-}
-
-body{
-    font-family: sans-serif;
-}
-   .container  {
-    background-color: #2F303A;
-    padding: 50px, 0,50px,0;
-    margin: 100px;
-    width: 1200px;
-    height:200px;
-}
-
-.logo{
+.logo {
     padding: 15px;
     border-radius: 4px;
     text-decoration: none;
 }
 
-.menu{
-    font-family: "Roboto", serif;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    margin: 0;
-    border-radius: 4px;
-  
+.left-blue{
+  color:  #4D5AE5;
+font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
 }
-.menu.link:hover{
-    text-decoration: underline;
+.right-black{
+    color: #2E2F42;
+    font-family: Raleway;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-align: left;
+
 }
-  
+.menu-nav {
+ overflow: hidden;
+
+}
+
+.menu-nav a {
+
+    float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;}
+
+       
+
+.nav {list-style-type: none;
+}
 
 
-   .main-title
-    {
-     width:496px;
-    line-height:1;
-    font-family:"Roboto",serif;
-   font-weight: 700;
-   font-size: 56px;
-   font-style:normal;
-   line-height: 60px;
-   letter-spacing: 0.02em;
-   align-items:center;
-   text-align: center;
-    color: white;
+body,html{height: 100%;
+    font-family: sans-serif; 
+}
    
+.main-section {
+    text-align: center;
+    color: black;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+}
+
+.title{
+    font-family: sans-serif;
+    display: inline-block;
+    justify-content: center;
+}
+
+
   
-     }
+
+
 
      .button{
        
@@ -76,16 +87,29 @@ body{
 
      .title{
         text-align: center;
+        background-color: BLUE #2E2F42 ;
+        width: 496px;
+         height: 120px;
+          top: 260px;
+           left: 472px;
      }
 
-.about-us {
-    font-family: "Roboto", serif;
-    margin-left: 10px;
-    margin-bottom: 5px;
-    width: 1170;
-    height:101;
-
+     .what-are-we-doing{
+      
+            font-family: Roboto;
+            font-size: 36px;
+            font-weight: 700;
+           text-align:  center;
+        width: 323px;
+         height:40px;
+          top: 1016px;
+           left: 559px;
+        
+          
 }
+
+
+
 
 .post-title{
     margin-top: 0;
@@ -112,13 +136,13 @@ footer .contact-info {
     margin: 5px 0;
 }
 
-
-.main-nav{
-
-display: inline;
-padding-left: 20px;
-padding-right: 20px;
-margin-right: 50px;
-margin-left: 50px;
+.first-cardrow{
+    display:flex;
+    justify-content: center;
 }
+.container-cards ul{
 
+    display:flex;
+    justify-content: center;
+}
+}
