@@ -4,8 +4,12 @@
     border-radius: 4px;
     text-decoration: none;
 }
+ li { list-style-type: none;
+    
+}
 
-.left-blue{
+.left-blue {
+
   color:  #4D5AE5;
 font-family: Raleway;
     font-size: 18px;
@@ -45,6 +49,7 @@ font-family: Raleway;
 }
 
 
+
 body,html{height: 100%;
     font-family: sans-serif; 
 }
@@ -55,12 +60,21 @@ body,html{height: 100%;
     top: 50%;
     left: 50%;
     align-items: center;
+    background: #2E2F42;
+    width: 1440px;
+    height: 350px;
+    margin: 0 auto;
+    
+ 
+
+ 
 }
 
 .title{
     font-family: sans-serif;
     display: inline-block;
     justify-content: center;
+    color: white;
 }
 
 
@@ -109,6 +123,31 @@ body,html{height: 100%;
 }
 
 
+.container-photo ul {
+    display: flex;
+    justify-content: center;
+}
+
+.container-images ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.our-team-title {
+    justify-content: center;
+    display: flex;
+}
+
+
+.what-are-we-doing-title {
+    justify-content: center;
+    display: flex;
+
+}
+
+
 
 
 .post-title{
@@ -139,9 +178,81 @@ footer .contact-info {
 .first-cardrow{
     display:flex;
     justify-content: center;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.second-cardrow{
+    display: flex;
+        justify-content: center;
+        margin-right: 10px;
+
 }
 .container-cards ul{
 
     display:flex;
     justify-content: center;
+    margin-right: 10px;
 }
+
+.what-we-offer{
+    display: flex;
+        justify-content: center;
+        
+
+}
+
+.name1{
+    display: flex;
+    justify-content: center;
+}
+
+.job1{
+    display: flex;
+        justify-content: center;
+
+}
+
+.name{
+    display: flex;
+        justify-content: center;
+
+}
+
+.job{
+    display: flex;
+        justify-content: center;
+}
+
+.description{
+    display:flex;
+    justify-content: center;
+}
+
+
+.item{
+    justify-content: space-between;
+    margin-right: 70px;
+
+}
+
+.menuu
+{
+    display:flex;
+    justify-content: center;
+    margin-right: 10px;
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
